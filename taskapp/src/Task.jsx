@@ -3,7 +3,9 @@ function Task({data}){
     <>
      <ul>
         {data.map((items,index) => (
-          <li key={index}>{items.title}</li>
+          <li key={index}>{items.title}
+          
+          </li>
         ))}
       </ul>
     </>

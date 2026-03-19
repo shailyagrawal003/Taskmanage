@@ -1,36 +1,41 @@
-body{
-  background-color: rgb(89, 118, 214);
+#root{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  min-height: 100vh;
   padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgb(89, 118, 214);
   color: black
 }
 .show-container{
-  margin: 100px;
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
   border: 2px solid rgb(59, 84, 168);
- 
   text-align: center;
   border-radius: 20px;
 }
 nav{
-  margin: 50px;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 nav a{
   text-decoration: none;
   color: black;
     background-color: rgb(59, 84, 168);
-    width: 50px;
-    margin: 25px;
-    padding: 15px;
-    height: 50px;
+    margin: 10px;
+    padding: 10px 15px;
     border-radius: 20px;
 }
 input{
   height: 40px;
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
+  height: 40px;
   background-color: white;
   border-radius: 20px;
   border: 0px;
@@ -39,7 +44,8 @@ input{
 }
 button{
   margin: 10px;
-  width: 120px;
+  width: 90%;
+  max-width: 200px;
   color: black;
   height: 40px;
   border-radius: 20px;
